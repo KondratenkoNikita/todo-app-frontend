@@ -12,7 +12,6 @@ const urlDelete = `${url}/todo`;
 const closeIconClass = 'closeIcon'
 const listHTML = document.getElementsByClassName('list')[0];
 const inputHTML = document.getElementsByClassName('input')[0];
-const closeIconHTML = document.querySelectorAll('close');
 let todos = [];
 
 const render = (list) => {
