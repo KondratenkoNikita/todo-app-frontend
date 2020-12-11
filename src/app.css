@@ -1,0 +1,91 @@
+.todoWrapper {
+  width: 600px;
+  margin: 150px auto 0 auto;
+  width: 600px;
+  box-shadow: 0px 0px 54px 6px rgba(0,0,0,0.1);
+}
+.header {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid rgba(0,0,0, 0.2);
+}
+.forwardIcon {
+  transform: rotate(90deg);
+  margin: 5px 0 0 15px;
+}
+.list {
+  width: 600px;
+}
+.input {
+  width: 100%;
+  height: 60px;
+  border: none;
+  font-size: 24px;
+  padding-left: 15px;
+}
+.input:focus {
+  border: none;
+  outline: none;
+}
+.input::placeholder {
+  opacity: 0.5;
+}
+
+.item {
+  height: 50px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(0,0,0, 0.2);
+}
+.doneIcon {
+  height: 36px;
+  width: 36px;
+  border: 2px solid grey;
+  border-radius: 50%;
+  padding: 3px 3px 4px 4px;
+  margin-left: 10px;
+}
+.closeIcon {
+  padding: 10px;
+  color: red;
+  cursor: pointer;
+  position: relative;
+  opacity: 0;
+  transition: 0.3s;
+}
+.closeIcon:hover {
+  transition: 0.3s;
+  opacity: 1;
+}
+
+.textWrapper {
+  width: 100%;
+  padding-left: 15px;
+  text-align: left ;
+}
+.footer {
+  display: flex;
+  height: 50px;
+  align-items: center;
+}
+.counter {
+  width: 120px;
+  margin-left: 15px;
+  font-style: italic;
+}
+.buttonGroup {
+  width: 200px;
+  display: flex;
+  justify-content: space-around;
+  margin-left: 90px;
+}
+.buttonFooter {
+  border: 1px solid rgba(204, 56, 19, 0.3);
+  font-size: 14px;
+  padding: 4px 7px;
+  border-radius: 5px;
+  background-color: transparent;
+}
+
