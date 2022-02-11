@@ -24,7 +24,7 @@
     "file-loader": "^6.2.0",
     "html-webpack-plugin": "^4.5.0",
     "material-ui": "^0.20.2",
-    "node-sass": "^5.0.0",
+    "node-sass": "^7.0.0",
     "sass-loader": "^10.1.0",
     "scss-loader": "0.0.1",
     "style-css": "^1.0.2",
